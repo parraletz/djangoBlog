@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for lista in lista %}
+
+<p>Hola : <u>{{ lista.nombre }} {{ lista.apellido }}</u>, tu edad es : {{ lista.edad }} anios </p>
+
+{% endfor %}
+
+
+{% endblock %}

@@ -4,3 +4,7 @@ from models import Alumnos
 class AlumnosForm(forms.ModelForm):
 	class Meta:
 		model = Alumnos
+
+### Formulario a base de modelos ####
+
+	
