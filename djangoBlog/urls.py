@@ -14,5 +14,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^alumnos/', 'djangoBlog.principal.views.alumnos'),
+    url(r'^addAlumnos/', 'djangoBlog.principal.views.addAlumnos'),
     url(r'^admin/', include(admin.site.urls)),
 )
